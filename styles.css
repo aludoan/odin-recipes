@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.raleway-light {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: .5rem;
+}
+
+body {
+    background-color: beige;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.recipe-heading {
+    text-align: auto;
+}
+
+.recipe-card h3 a {
+    color: rgb(255, 25, 25);
+    text-decoration: none;
+}
+
+.recipe-card {
+    display: flex;
+    align-items: center;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: white;
+}
+
+.recipe-card:hover {
+    transform: scale(1.01);
+}
+
+.dish-desc {
+    padding: .4rem;
+}
+
+section#recipes {
+    display: flex;
+    justify-content: center;
+}
+
+.recipe-container {
+    padding: 1rem;
+}
+
